@@ -3,6 +3,7 @@ import { ref, useTemplateRef } from 'vue'
 import BigButtonLifeCycle from './components/Big Button/BigButtonLifeCycle.vue'
 import BigButtonCanCountSlowly from "./components/Big Button/BigButtonCanCount/BigButtonCanCountSlowly.vue"
 import BigButtonCanCountQuickly from "./components/Big Button/BigButtonCanCount/BigButtonCanCountQuickly.vue"
+import BigButtonLearns from './components/Big Button/BigButtonLearns/BigButtonLearns.vue'
 
 import bigDict from "./formulas/bigDict.json" //  [  ]  []
 import testString from "./components/Big Button/BigButtonVars.js"
@@ -32,5 +33,6 @@ function boing() {
     <!--<pre>{{ BigButtonLifeCycleChild }}</pre>-->
     <BigButtonCanCountSlowly /> <br></br>
     <BigButtonCanCountQuickly /> <br></br>
+    <BigButtonLearns />
   </div>
 </template>
