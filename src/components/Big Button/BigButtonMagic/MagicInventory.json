@@ -1,0 +1,11 @@
+{
+    "elements": [
+        {"type": "mana", "amount": "0"},
+        {"type": "soil", "amount": "0"},
+        {"type": "water", "amount": "0"},
+        {"type": "fire", "amount": "0"},
+        {"type": "stone", "amount": "0"},
+        {"type": "wind", "amount": "0"},
+        {"type": "sand", "amount": "0"}
+    ]
+}
